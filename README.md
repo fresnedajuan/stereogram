@@ -26,7 +26,7 @@ This is an implementation where a disparity map image is taken as an input and a
 <img src="flowdiagram.png">
 </p>
 
-### Function description 
+## Function description 
 This function shifts the pixels in the mIn matrix using the information of the dsMap. The number of units that the pixel is shifted is called the offset.
 ```
 function [mOut, prevOut,rOutFlag] = pxl2stereogram(mIn, dsMap,offset)
@@ -41,3 +41,6 @@ function [mOut, prevOut,rOutFlag] = pxl2stereogram(mIn, dsMap,offset)
 	prevOut: if rOutFlag = 1, prevOut is going to return th information tha have to be used on the previous section.
 	rOutFlag: 1 if there is information in the prevOut matrix, 0 if is empty.
 
+## Authors
+
+Juan Miguel Fresneda 
