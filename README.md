@@ -27,7 +27,7 @@ This is an implementation where a disparity map image is taken as an input and a
 </p>
 
 ### Function description 
-This function shifts the pixels in the mIn matrix using the information of the dsMap. The number of units that shift the pixels is the offset.
+This function shifts the pixels in the mIn matrix using the information of the dsMap. The number of units that the pixel is shifted is called the offset.
 ```
 function [mOut, prevOut,rOutFlag] = pxl2stereogram(mIn, dsMap,offset)
 ```
