@@ -36,10 +36,10 @@ that is why at the end of the program the algorithm copy the useful information 
 function [mOut, prevOut,rOutFlag] = pxl2stereogram(mIn, dsMap,offset)
 ```
 
-###input aguments:
+### Input aguments:
 	mIn: input matrix that is going to be modified, is one of the five sections of the image, in the first iteraction is the pattern that is being repeated in the whole image
 	dsMap: input matrix with the disparity map of the section
 	ofsset: number of positions that are going to be shifted each of the pixels according to the disparity map
-###output arguments:
+### Output arguments:
 	mOut: output martix 
 	prevOut: if rOutFlag = 1, prevOut is 
