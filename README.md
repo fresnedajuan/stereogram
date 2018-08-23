@@ -33,11 +33,11 @@ This function shift the pixels in the mIn matrix using the information of the ds
 function [mOut, prevOut,rOutFlag] = pxl2stereogram(mIn, dsMap,offset)
 ```
 
-### Input aguments:
+#### Input aguments:
 	mIn: Input matrix that is going to be modified, it's one of the five sections of the image, in the first iteraction is the pattern that is being repeated in the whole image
 	dsMap: input matrix with the disparity map of the section
 	offset: number of positions that are going to be shifted each of the pixels according to the disparity map
-### Output arguments:
+#### Output arguments:
 	mOut: output martix 
 	prevOut: if rOutFlag = 1, prevOut is going to return th information tha have to be used on the previous section.
 	rOutFlag: 1 if there is information in the prevOut matrix, 0 if is empty.
